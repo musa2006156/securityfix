@@ -30,8 +30,8 @@ const { get } = require("snekfetch");
 const guild = require("guild");
 const dateFormat = require("dateformat");
 const pretty = require("pretty-ms");
-client.login("token"); ////////////////mrfix
-const prefix = "prefix";
+client.login("NzcwMzY2ODAzODIwOTM3MjY2.X5ch_g.V5CTAe1sfo4F6jFoWSPaHPmPLa4"); ////////////////mrfix
+const prefix = "m?";
 var table = require("table").table;
 const Discord = require("discord.js");
 client.on("ready", () => {
@@ -40,7 +40,7 @@ client.on("ready", () => {
 });
 // ======== { • playing • }======== //
 client.on("ready", () => {
-  client.user.setActivity("help | it’s time to secure your server", {
+  client.user.setActivity("m?help |security your server", {
     type: "PLAYING"
   }); ////////////////mrfix
   client.user.setStatus("ONLINE");
@@ -69,8 +69,8 @@ user
 profile
 Best Discord __AntiSpam__
 Best Discord __AntiShare Everyone & Here & Link .__`;
-    var addserver = `https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=2080374975`;
-    var SUPPORT = `https://discord.gg/6ASrSeG`;
+    var addserver = `https://discord.com/api/oauth2/authorize?client_id=770366803820937266&permissions=8&scope=bot`;
+    var SUPPORT = `https://discord.gg/DEE6xQY`;
     let embed = new Discord.RichEmbed()
       .setTitle(`${m.author.username}`)
       .setDescription(
